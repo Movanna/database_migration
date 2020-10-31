@@ -5,7 +5,7 @@ import mysql.connector
 import psycopg2
 import json
 
-PROJECT_NAME = "ZTS_2020_05_14"
+PROJECT_NAME = ""
 
 conn_old_db = mysql.connector.connect(
     host="",
@@ -22,7 +22,6 @@ conn_new_db = psycopg2.connect(
     port="",
     password=""
 )
-
 cursor_new = conn_new_db.cursor()
 
 def create_project(PROJECT_NAME):
