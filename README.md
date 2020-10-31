@@ -92,7 +92,7 @@ This script uses collection_ids.json, which was created by script 1, and introdu
 It inserts data for introductions and title pages and updates table publication_collection with the corresponding ids.
 
 ## 13. update_notes.py
-This script updates the document_id:s in table documentnote in topelius._notes for collection Läsning för barn. It has to be run only once; document_id:s are not continously updated. The XML files need to be accessible for the script.
+This script updates the document_id:s in table documentnote in topelius_notes for collection Läsning för barn. It has to be run only once; document_id:s are not continously updated. The XML files need to be accessible for the script.
 
-## update_comment_with_lasning_for_barn.py
+## 14. update_comment_with_lasning_for_barn.py
 This script was used for updating table document in db topelius_notes with filepaths to comments for Läsning för barn.
