@@ -1,7 +1,7 @@
 # database_migration
 **Python scripts for migrating a MySQL database to a PostgreSQL database with a different structure.**
 
-The databases belong to an edition project, Zacharias Topelius Skrifter, which publishes the works of the author Zacharias Topelius. The edition is published on a website (http://topelius.sls.fi), as e-books and in print. The PostgreSQL database is part of a **generic digital edition platform**, managed by the Society of Swedish Literature in Finland (see https://github.com/slsfi/digital_edition_documentation/wiki).
+The databases belong to an edition project, Zacharias Topelius Skrifter, which publishes the works of the author Zacharias Topelius. The edition is published on a [website](http://topelius.sls.fi), as e-books and in print. The PostgreSQL database is part of a [Generic Digital Edition Platform*](https://github.com/slsfi/digital_edition_documentation/wiki), managed by the Society of Swedish Literature in Finland.
 
 The database contains information about editions, texts, manuscripts, versions, facsimiles and editorial texts. The scripts listed below were written in the first half of 2020 and then used for migrating the relevant information. The new database improves the workflow of the publishing process considerably by storing more information, such as file paths for each text. Before, when (re)publishing a text on the web, the editor had to choose the file path by hand, and it wasn't permanently stored. On the new platform, this is no longer necessary. A lot of the functionality in the scripts deals with finding out the correct file paths for each text. Obviously, we didn't want to add 7 000 file paths manually into the new database.
 
